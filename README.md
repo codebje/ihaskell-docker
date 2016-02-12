@@ -5,7 +5,7 @@ port 8888.
 
 The fastest way to get up and running is:
 
-    docker run -d --name ihaskell -p 127.0.0.1:8888:8888 codebje/ihaskell-docker
+    docker run -d --name ihaskell -p 127.0.0.1:8888:8888 codebje/ihaskell
 
 You can mount a volume into `/books` if you'd like external persistence of
 your notebooks, and you can require a password by setting the `password`
